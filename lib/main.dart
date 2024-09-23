@@ -1,3 +1,5 @@
+import 'package:belajar1/widget/image.dart';
+import 'package:belajar1/widget/teks.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -31,7 +33,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 232, 169, 32)),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(title: 'Belajar flutter '),
     );
   }
 }
@@ -105,13 +107,15 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const Text(
-              'You have pushed the button this many times:',
-            ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headlineMedium,
-            ),
+            const TextWidget(),
+            const ImageWidget(),
+           // const Text
+            //  'You have pushed the button this many times:',
+            //),
+            //Text(
+             // '$_counter',
+              //style: Theme.of(context).textTheme.headlineMedium,
+            //),
           ],
         ),
       ),
