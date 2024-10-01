@@ -1,6 +1,12 @@
-import 'package:belajar1/widget/image.dart';
-import 'package:belajar1/widget/teks.dart';
+//import 'package:belajar1/widget/cupertino.dart';
+//import 'package:belajar1/widget/fabwidget.dart';
+//import 'package:belajar1/widget/image.dart';
+//import 'package:belajar1/widget/teks.dart';
 import 'package:flutter/material.dart';
+//import 'package:flutter/cupertino.dart';
+//import 'package:belajar1/widget/scaffold.dart';
+import 'package:belajar1/widget/dialogwidget.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -33,7 +39,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 232, 169, 32)),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Belajar flutter '),
+      home: const MyHomePage(title: 'Belajar flutter demo '),
     );
   }
 }
@@ -107,13 +113,16 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const TextWidget(),
-            const ImageWidget(),
+            //const TextWidget(),
+           //const ImageWidget(),
+          // const LoadingWidget(),
+           //const FabWidget(),
+           //const SizedBox(height: 20)
            // const Text
-            //  'You have pushed the button this many times:',
+             // ('You have pushed the button this many times:',
             //),
             //Text(
-             // '$_counter',
+              //'$_counter',
               //style: Theme.of(context).textTheme.headlineMedium,
             //),
           ],

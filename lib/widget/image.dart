@@ -5,7 +5,7 @@ class ImageWidget extends StatelessWidget {
 
   Widget build(BuildContext context){
     return const Image(
-      image: AssetImage("logo.png")
+   image: AssetImage("logo.png")
     );
   }
 }
